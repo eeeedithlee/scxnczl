@@ -1,0 +1,119 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+    font-family: 'FangZheng';
+    src: url(../fonts/FZXBSJW.TTF); 
+    font-weight: normal;
+    font-style: normal;
+}
+*{
+    margin:0 auto;
+    padding:0px;
+    font-family:Microsoft YaHei,"微软雅黑",Arial,Helvetica,sans-serif;
+}
+
+.head{
+    margin: 20px auto;
+    max-width: 1000px;
+    border: #f66767 5px solid;
+    min-height: 150px;
+}
+
+#head-image{
+    display: inline;
+    width: 100px;
+    margin-top: -20px;
+    margin-left: -20px;
+}
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.middle{
+    text-align: center;
+    margin: 40px auto;
+}
+
+.headfont{
+    font-family: 'FangZheng';
+    padding-top: 5px;
+}
+
+.button-font{
+    font-family: 'FangZheng';
+    padding: 10px;
+}
+
+.box{
+    margin: 0px auto;
+    max-width: 1000px;
+    background-color: #f9d5bb;
+    min-height: 150px;
+}
+
+ul{
+    list-style-type:none;
+    margin:0 0 0 0;
+    text-align: center;
+    font-family: 'FangZheng';
+}
+
+li
+{
+    display:inline;
+    margin: 0 50px 0 0;
+}
+
+#content-word{
+    font-size: 20px;
+    color: #f9d5bb;
+}
+
+#content-word2{
+    font-size: 20px;
+    border: 3px solid #eeeeee;
+    margin: 20px;
+    padding: 10px;
+}
+
+.two{
+    /*display: flex;*/
+    margin: 20px auto;
+    max-width: 1000px;
+    border: #eeeeee 5px solid;
+    min-height: 300px;
+}
+
+.contenttext{
+    margin: 20px;
+    line-height: 35px;
+    color: #3c3d47;
+}
+
+.two3{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 10px auto;
+    max-width: 1000px;
+    border: #eeeeee 5px solid;
+    min-height: 460px;
+}
+
+button{
+    background: none;
+    border: none;
+}
+
+
+.href{
+    text-align: center;
+    color: #3c3d47;
+    margin-top: 10px;
+    font-size: medium;
+}
