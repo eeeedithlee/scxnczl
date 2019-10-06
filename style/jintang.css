@@ -36,24 +36,20 @@
 
 .middle{
     text-align: center;
-    margin: 40px auto;
+    margin: auto;
 }
 
 .headfont{
     font-family: 'FangZheng';
-    padding-top: 5px;
-}
-
-.button-font{
-    font-family: 'FangZheng';
-    padding: 10px;
+    margin-top: 30px;
 }
 
 .box{
-    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
     max-width: 1000px;
     background-color: #f9d5bb;
-    min-height: 150px;
 }
 
 ul{
@@ -61,12 +57,13 @@ ul{
     margin:0 0 0 0;
     text-align: center;
     font-family: 'FangZheng';
+    background-color: #3c3d47;
 }
 
 li
 {
-    display:inline;
-    margin: 0 50px 0 0;
+    display: inline;
+    margin: 0 70px 0 0;
 }
 
 #content-word{
@@ -76,7 +73,6 @@ li
 
 #content-word2{
     font-size: 20px;
-    border: 3px solid #eeeeee;
     margin: 20px;
     padding: 10px;
 }
@@ -87,6 +83,7 @@ li
     max-width: 1000px;
     border: #eeeeee 5px solid;
     min-height: 300px;
+    background-color: #f9d5bb;
 }
 
 .contenttext{
@@ -99,15 +96,17 @@ li
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    margin: 10px auto;
     max-width: 1000px;
-    border: #eeeeee 5px solid;
     min-height: 460px;
 }
 
 button{
-    background: none;
     border: none;
+    height: 40px;
+    padding-right: 5px;
+    padding-left: 5px;
+    color: #ffeee4;
+    font-family: 'FangZheng';
 }
 
 

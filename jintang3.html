@@ -12,22 +12,24 @@
 <!--    </div>-->
     <img src="images/jintang/1.jpg" class="left">
     <img src="images/jintang/9.jpg" class="right">
-    <h1 class="middle">如何致富</h1>
-    <h2 class="middle">德兴企业告诉你</h2>
+    <div class="middle">
+        <h1 class="headfont">如何致富</h1>
+        <h2 class="headfont">德兴企业告诉你</h2>
+    </div>
 </div>
 <div class="box">
     <ul>
         <li>
-            <button onclick="choose(1)" id="b1">企业概况</button>
+            <button onclick="choose(1)" id="b1" class="button-font">企业概况</button>
         </li>
         <li>
-            <button onclick="choose(2)" id="b2">面临问题</button>
+            <button onclick="choose(2)" id="b2" class="button-font">面临问题</button>
         </li>
         <li>
-            <button onclick="choose(3)" id="b3">独家采访</button>
+            <button onclick="choose(3)" id="b3" class="button-font">独家采访</button>
         </li>
         <li>
-            <button onclick="choose(4)" id="b4">成功关键</button>
+            <button onclick="choose(4)" id="b4" class="button-font">成功关键</button>
         </li>
     </ul>
     <div class="two3">
@@ -37,7 +39,7 @@
             <img src="images/jintang/5.jpg"><Br/>
             <img src="images/jintang/6.jpg">
         </div>
-        <p id="content-word">
+        <p class="contenttext" style="color:#3c3d47" id="content-word">
         </p>
     </div>
 </div>
@@ -45,11 +47,11 @@
     <a href="jintang.html">三溪概况</a>
 </div>
 <div class="href">
-    <a href="jintang2.html">如何在三溪变成一个有钱人</a>
+    <a href="jintang2.html">你想知道的更多信息</a>
 </div>
 <script>
-    var color = 'lightskyblue';
-    var chosen_color = 'red';
+    var color = "#3c3d47";
+    var chosen_color = "#f17f42";
     var text = document.getElementById("content-word");
     var b1 = document.getElementById("b1");
     var b2 = document.getElementById("b2");
