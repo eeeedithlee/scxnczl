@@ -36,6 +36,7 @@
 
 .middle{
     text-align: center;
+    align-items: center;
     margin: auto;
 }
 
@@ -47,8 +48,7 @@
 .box{
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    max-width: 1000px;
+    margin: 0 0 0 0;
     background-color: #f9d5bb;
 }
 
@@ -67,14 +67,19 @@ li
 }
 
 #content-word{
+    width: 1000px;
     font-size: 15px;
-    color: #f9d5bb;
+    margin: 20px;
+    line-height: 35px;
+    color: #3c3d47;
 }
 
 #content-word2{
-    font-size: 20px;
+    width: 800px;
+    font-size: 15px;
     margin: 20px;
-    padding: 10px;
+    line-height: 35px;
+    color: #3c3d47;
 }
 
 .two{
@@ -86,13 +91,8 @@ li
     background-color: #f9d5bb;
 }
 
-.contenttext{
-    margin: 20px;
-    line-height: 35px;
-    color: #3c3d47;
-}
-
 .two3{
+    background-color: #f39562d7;
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
